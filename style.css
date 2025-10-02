@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Pixelify+Sans:wght@400..700&display=swap');
+
+*{
+    margin: 0 auto;
+}
+main{
+    width: 80%;
+    height:auto;
+    background-color:none;
+}
+
+#um{
+    width: 48%;
+    height: auto;
+    background-color:rgba(204, 0, 255, 0.5);
+    float:left;
+    margin:1%;
+    border-radius:25px;
+    box-shadow: 1px 1px 15px;
+}
+#dois{
+    width: 48%;
+    height: auto;
+    background-color:rgba(204, 0, 255, 0.5);
+    float:left;
+    margin:1%;
+    border-radius:25px;
+    box-shadow: 1px 1px 15px;
+}
+p img {text-align:center;}
+img{
+    width:100%;
+    border-radius:25px;
+}
+h1{
+    padding-left:5%;color: azure;
+}
+p{
+    padding:10px; text-align:justify; line-height:25px; color:aliceblue;
+}
+body{
+    background-color: rgb(201, 158, 19);
+}
+.link{
+    background-color: rgb(201, 158, 19);
+    width: 30%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px 20px;        
+    margin: 20px auto;        
+    cursor: pointer;           
+    transition: 0.3s;          
+}
+
+.link:hover{
+    background-color: rgb(160, 126, 16); 
+    transform: scale(1.05); 
+}     
+a{
+    text-decoration: none;
+    color: azure;
+    font-weight: 900;  
+    display: block;     
+}
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+@media only screen and (max-width: 768px){
+    #um,
+    #dois{
+        width: 100%; margin-bottom:20px;
+    }
+}
